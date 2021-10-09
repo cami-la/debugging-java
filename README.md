@@ -3,6 +3,10 @@
 <p>Erros de programação são denominados bugs e o processo de encontrar e corrigir bugs é chamado de depuração ou debugging.</p>
 <p>De forma geral, a depuração é uma tarefa difícil e trabalhosa, e a dificuldade varia de acordo com o ambiente de desenvolvimento, o que inclui a linguagem de programação e as ferramentas disponíveis, como depuradores.</p>
 
+<div align="center">
+    <img src="https://media1.giphy.com/media/9o9dh1JRGThC1qxGTJ/giphy.gif?cid=ecf05e47e4eg6hhx3ku1sec3j55c616p31sgn63m6kf0kcmu&rid=giphy.gif&ct=g" width="600" height="400">
+</div>
+
 <p>Existem duas grandes categorias que englobam a natureza do erro:</p>
 <ul>
     <li><h3>Erros de Sintaxe:</h3>É um erro nas regras estabelecidas da linguagem:
