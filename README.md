@@ -1,7 +1,8 @@
 <h1>Debugging Java</h1>
 
 <p>Erros de programação são denominados bugs e o processo de encontrar e corrigir bugs é chamado de depuração ou debugging.</p>
-<p>Linguagens de alto nível tornam a depuração mais fácil, pois fornecem mais ferramentas para identificar erros, como o tratamento de exceções. </p>
+<p>De forma geral, a depuração é uma tarefa difícil e trabalhosa, e a dificuldade varia de acordo com o ambiente de desenvolvimento, o que inclui a linguagem de programação e as ferramentas disponíveis, como depuradores.</p>
+
 <p>Existem duas grandes categorias que englobam a natureza do erro:</p>
 <ul>
     <li><h3>Erros de Sintaxe:</h3>É um erro nas regras estabelecidas da linguagem:
@@ -23,10 +24,7 @@
 
 <h2>Depuração/Debugging</h2>
 <p>Depuradores são ferramentas que permitem ao programador monitorar a execução de um programa, pará-lo e reiniciá-lo, ativar pontos de parada, alterar áreas de memória e, em alguns casos, voltar no tempo.</p>
-<p>De forma geral, a depuração é uma tarefa difícil e trabalhosa, e a dificuldade varia de acordo com o ambiente de desenvolvimento, o que inclui a linguagem de programação e as ferramentas disponíveis, como depuradores.</p>
-
- 
-
+<p>Linguagens de alto nível tornam a depuração mais fácil, pois fornecem mais ferramentas para identificar erros, como o tratamento de exceções. </p>
 
 <h2>🔎 Referências </h2>
 <ul>
