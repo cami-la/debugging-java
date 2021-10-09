@@ -10,7 +10,7 @@ Existem duas grandes categorias que englobam a natureza do erro:
             <li>Uma palavra-chave sendo usada numa posição inesperada.</li>        
         </ol>
     </li>
-    <li><h3>Erros de Semântica:</h3>  É um erro na "lógica do código", em sua semântica, o código está sintaticamente correto, porém não faz o que se esperava dele. Por isso, este tipo de erro é geralmente mais difícil de ser identificado e corrigido.
+    <li><h3>Erros de Semântica:</h3>  É um erro na "lógica do código", em sua semântica, o código está sintaticamente correto, porém não faz o que se esperava dele.
         <ol>
             <li>Tentar dividir um número por uma String ou por zero.</li>
             <li>Atribuir um valor incoerente a um tipo de dado. Por exemplo: int n = "Camila";</li>
