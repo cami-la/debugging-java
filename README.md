@@ -30,21 +30,8 @@
 <p>Os depuradores funcionam assumindo o controle do tempo de execução de um programa e permitindo que você o observe e controle. Para fazer isso, ele mostra a pilha do programa e permite que você a atravesse em qualquer direção. Quando você está em um depurador, obtém uma imagem mais completa de um quadro de pilha do que quando olha os rastreamentos de pilha em uma mensagem de log.</p>
 
 <h2>Pilha de Execução de um Programa Java/Stack Trace</h2>
-
-<code>public class StackTrace {
-
-public static void main(String[] args) { a(); }
-
-static void a() { b(); }
-
-static void b() { c(); }
-
-static void c() { d(); }
-
-static void d() { Thread.dumpStack(); }
-
-}
-</code>
+- Pilha de execução: Toda invocação de método é empilhada em uma estrutura de dados que isola a área de memória de cada um. Quando um método termina (retorna), ele volta para o método que o invocou.
+- Stack Trace: É a matriz onde encontramos a pilha de excecução da exceção. Em outras palavras, podemos dizer que o rastreamento da pilha busca (rastreio) para a próxima linha onde a exceção pode surgir.
 
 <h2>🔗 Links Úteis</h2>
 <ul>
@@ -52,13 +39,13 @@ static void d() { Thread.dumpStack(); }
     <li>https://www.eclipse.org/community/eclipse_newsletter/2017/june/article1.php</li>
 </ul>
 
-
 <h2>🔎 Referências </h2>
 <ul>
     <li>https://www.hostgator.com.br/blog/debug-desenvolvimento-web/</li>
-    <li>https://www.inf.pucrs.br/flash/progbio/aulas/seq/build/progbio/WhatisDebugging.html</li>
     <li>https://www.alura.com.br/conteudo/java-excecoes</li>
     <li>https://pt.wikipedia.org/wiki/Depura%C3%A7%C3%A3o</li>
+    <li>https://www.sentinelone.com/blog/java-stack-trace-understanding/</li>
+    <li>https://www.caelum.com.br/apostila-java-orientacao-objetos/excecoes-e-controle-de-erros#exercicio-para-comecar-com-os-conceitos</li>
 </ul>
 
 <h2> 🤝 Contribuindo </h2>
