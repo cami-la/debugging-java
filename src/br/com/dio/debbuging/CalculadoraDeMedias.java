@@ -1,36 +1,27 @@
 package br.com.dio.debbuging;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class CalculadoraDeMedias {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        String[] alunos = {"Camila", "Lucas", "Bruna", "Pedro", "Maria"};
+        String[] alunos = {"Camila", "Lucas", "Bruna", "Pedro"};
 
-        int media = calculaMediaDaTurma(alunos, scan);
+        double media = calculaMediaDaTurma(alunos, scan);
 
-        System.out.printf("Média da turma %d", media);
+        System.out.printf("Média da turma %.1f", media);
     }
 
-    public static int calculaMediaDaTurma(String[] listaDeAlunos, Scanner scan) {
-        int somaDasNotas = 0;
-        int media = 0;
-        int nota = 0;
+    public static double calculaMediaDaTurma(String[] alunos, Scanner scanner) {
 
-        for(int i = 0; i < listaDeAlunos.length;i++) {
-            try{
-                System.out.printf("Nota do aluno %s: ", listaDeAlunos[i]);
-                nota = scan.nextInt();
-                somaDasNotas += nota;
-            } catch (InputMismatchException e) {
-                System.out.println("Insira uma nota válida!");
-            }
+        double soma = 0;
+        for(String aluno : alunos) {
+            System.out.printf("Nota do aluno %s: ", aluno);
+            double nota = scanner.nextDouble();
+            soma += nota;
         }
 
-        media = nota/listaDeAlunos.length;
-        return media;
-
+        return soma / alunos.length;
     }
 
 }

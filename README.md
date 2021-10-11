@@ -32,7 +32,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
     <li><h3>Erros de Semântica:</h3>  É um erro na "lógica do código", em sua semântica, o código está sintaticamente correto, porém não faz o que se esperava dele.
         <ol>
             <li>Tentar dividir um número por uma String ou por zero.</li>
-            <li>Atribuir um valor incoerente a um tipo de dado. Por exemplo: int n = "Camila";</li>
+            <li>Atribuir um valor incoerente a um tipo de dado.</li>
             <li>Tentar fechar um arquivo que não foi aberto.</li>
         </ol>
     </li>
