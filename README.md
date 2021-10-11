@@ -65,7 +65,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
     <li>https://www.caelum.com.br/apostila-java-orientacao-objetos/excecoes-e-controle-de-erros#exercicio-para-comecar-com-os-conceitos</li>
 </ul>
 
-<h2>🙋‍♀️Redes Socias</h2>
+<h2>✨ ️Redes Socias</h2>
 <p align="center">
 <a href="https://www.youtube.com/channel/UCqchrwxLd023IrA8KlCpH9g">YouTube</a> ▪️
 <a href="https://www.instagram.com/estudant.i/">Instagram 1</a> ▪️
