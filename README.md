@@ -1,4 +1,21 @@
 <h1>Debugging Java</h1>
+<p>Curso que apresenta conceitos introdutórios sobre como podemos trabalhar com debugging na linguagem Java. 
+Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalinnovation.one/home"> DIGITAL INNOVATION ONE  </a></strong> 🧡💛 e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.
+
+<h2>
+🛑 Pré-requistos
+</h2>
+
+- [x] Java JDK 8 ou superior
+- [x] IDE para desenvolvimento Java
+
+<h2> 📚 Ementa</h2>
+<ol>
+    <li>Visão Geral</li>
+    <li>Pilha de Execução de um programa Java</li>
+</ol>
+
+<h2>Visão Geral</h2>
 
 <p>Erros de programação são denominados bugs e o processo de encontrar e corrigir bugs é chamado de depuração ou debugging.</p>
 <p>De forma geral, a depuração é uma tarefa difícil e trabalhosa, e a dificuldade varia de acordo com o ambiente de desenvolvimento, o que inclui a linguagem de programação e as ferramentas disponíveis, como depuradores.</p>
