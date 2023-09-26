@@ -52,7 +52,7 @@ Curso este ministrado por mim em nome da <strong> <a href="https://web.digitalin
 
 <h2>🔗 Links Úteis</h2>
 <ul>
-    <li>https://confluence.jetbrains.com/display/IntelliJIDEA/14.+Depurador</li>
+    <li>https://www.jetbrains.com/help/idea/debugging-code.html#general-procedure</li>
     <li>https://www.eclipse.org/community/eclipse_newsletter/2017/june/article1.php</li>
 </ul>
 
